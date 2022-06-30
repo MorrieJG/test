@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+#d1{
+    float: left;
+    background-color: aqua;
+}
+#d2{
+    float: right;
+    background-color: darkmagenta;
+}
+
+div{
+    border: 5px black;
+    border-style: ridge;
+    margin: 30px;
+    width: 45%;
+    height: 1000px;
+    
+}
+
+p{
+    padding: 5px;
+    font-size: xx-large;
+}
+a{
+    border: 3px lightgreen;
+    border-radius: 10px;
+    font-size: xx-large;
+    margin: 10px;
+    background: lightgreen;
+    position: fixed;
+    bottom: 5px;
+}

@@ -18,3 +18,10 @@ body{
   font-size: 20px;
   text-transform: none;
 }
+
+#float{
+  float: right;
+  background-color: green;
+  border: 5px black;
+  border-style: ridge;
+}
