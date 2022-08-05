@@ -1,0 +1,17 @@
+#food{
+    font-size:xx-large;
+    margin-left: 1%;  
+}
+
+.item{
+    height: 1000px;
+    border: 1px black;
+    border-style: inset;
+    background-color: lightslategray;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
