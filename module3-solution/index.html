@@ -7,13 +7,18 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-xs visible-sx">
-            <div id="food">Food, LLC</div>
-            <button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target="#collapsible-nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse visible-xs" id="collapsible-nav">
-                <ul class="navbar-nav  visible-xs">
+        <nav class="navbar navbar-default visible-sx">
+            <div class="container">
+                <div id="food">Food, LLC</div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="collapsable-nav" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button> 
+            </div> 
+            
+            <div class="collapse navbar-collapse visible-xs" id="collapsable-nav">
+                <ul class="nav navbar-nav navbar-right visible-xs">
                     <li class="nav-item">
                         <a class="nav-link" href="#chicken">Chicken</a>
                     </li>
@@ -24,9 +29,9 @@
                         <a class="nav-link" href="#sushi">Sushi</a>
                     </li>
                 </ul>
-            </div>      
-
+            </div>
         </nav>
+        
 
         <h1 class="text-center">Our Menu</h1>
 
